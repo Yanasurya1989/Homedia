@@ -1,0 +1,52 @@
+header .navbar .navbar-item .nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header .navbar .navbar-brand a {
+  text-decoration: none;
+  color: white;
+}
+
+#hero .carousel-inner .carousel-item img {
+  height: 560px;
+}
+
+/* Feature start */
+.feature .main-feature-box {
+  margin-bottom: 30px;
+  background-color: white;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.2);
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.feature .main-feature-box .icon {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  color: white;
+  transition: 0.5s;
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.feature .main-feature-box h3 {
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.feature .main-feature-box p {
+  font-size: 13px;
+  padding-bottom: 7px;
+  text-transform: capitalize;
+  position: relative;
+}
+/* Feature end */
