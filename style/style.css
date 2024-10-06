@@ -9,7 +9,9 @@ header .navbar .navbar-brand a {
 }
 
 #hero .carousel-inner .carousel-item img {
-  height: 560px;
+  height: 630px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Feature start */
@@ -50,6 +52,175 @@ header .navbar .navbar-brand a {
   position: relative;
 }
 /* Feature end */
+
+/* ask start */
+.ask {
+  background-image: url("../image/2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
+}
+
+.ask .background h3 {
+  font-style: bold;
+}
+
+.ask .background h1 {
+  font-size: 50px;
+}
+
+.ask .background p {
+  font-size: 25px;
+}
+/* ask end */
+
+/* team start */
+#pengurus {
+  background-color: rgb(3, 3, 107);
+  position: relative;
+  padding: 20px 0;
+}
+
+#pengurus .title h2 {
+  color: white;
+}
+
+#pengurus .section-item-slider {
+  box-shadow: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+#pengurus .section-item-slider {
+  height: 276px;
+  padding: 20px;
+}
+
+#pengurus .section-item-conten h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: yellow;
+}
+
+#pengurus .section-item-conten p {
+  color: var(--secondary);
+  line-height: 26px;
+  font-size: 14px;
+}
+
+#pengurus .foto {
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-body {
+  position: relative;
+}
+
+#slider-pengurus .owl-next,
+#slider-pengurus .owl-prev {
+  position: absolute;
+  background-color: var(--secondary);
+  top: 40%;
+  right: -5%;
+  z-index: 1;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  outline: none;
+  box-shadow: 0 0 15px #ddd;
+  transition: background-color 0.5s;
+}
+
+#slider-pengurus .owl-prev {
+  left: -5%;
+}
+
+#slider-pengurus .owl-next:hover,
+#slider-pengurus .owl-prev:hover {
+  background-color: orange;
+  cursor: pointer;
+  color: var(--secondary);
+}
+
+#pengurus .section-item-slider img {
+  transition: 0.8s;
+  height: 100%;
+  z-index: -333;
+}
+
+#pengurus .section-item-slider:hover img {
+  transform: scale(1.2);
+}
+
+#pengurus .section-item-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+#pengurus .section-item-slider .jabatan {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: 0.8s;
+  z-index: 3;
+}
+
+#pengurus .section-item-slider:hover .jabatan {
+  height: 100%;
+}
+
+#pengurus .section-item-slider .jabatan .jabatan-text {
+  transition: 0.8s;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* width: 84%;
+margin-left: 8%; */
+  padding-top: 100%;
+  color: var(--secondary);
+}
+
+#pengurus .section-item-slider .jabatan .jabatan-text {
+  background-color: #ddd;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#pengurus .section-item-slider:hover .jabatan .jabatan-text {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#pengurus .section-item-slider .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: 0.6s;
+  z-index: 5;
+}
+
+#pengurus .section-item-slider:hover .icon {
+  opacity: 1;
+}
+/* team end */
 
 /* Footer start */
 footer {
@@ -192,3 +363,14 @@ footer .sosmed li a:hover {
   text-decoration: none;
 }
 /* Footer end */
+
+#services {
+  padding: 10px 0;
+  background-color: white;
+}
+
+/* testimony start*/
+/* .carousel-inner {
+  padding: 0 10%;
+} */
+/* testimony end*/
